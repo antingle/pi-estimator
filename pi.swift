@@ -34,4 +34,4 @@ let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
 
 print("Pi estimation: \(pi)")
                                     
-print("Time elapsed: \(String(format: "%.05f", timeElapsed)) seconds")
+print("Time taken: \(String(format: "%.05f", timeElapsed)) seconds")

@@ -43,7 +43,7 @@ int main()
 
     cout << "Pi estimation: " << pi << '\n';
 
-    cout << "Time taken (sec) = " << timeTaken << '\n';
+    cout << "Time taken: " << timeTaken << " seconds" << '\n';
 
     return 0;
 }

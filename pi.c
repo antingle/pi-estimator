@@ -41,7 +41,7 @@ int main()
 
     printf("Pi estimation: %lf \n", pi);
 
-    printf("Time taken (sec): %lf \n", timeTaken);
+    printf("Time taken: %lf seconds\n", timeTaken);
 
     return 0;
 }
