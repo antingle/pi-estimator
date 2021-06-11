@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
-#include <chrono>
+#include <time.h>
 
 using namespace std;
 
@@ -16,12 +16,13 @@ int main()
     double pointsInCircle = 0;
     double totalPoints = 0;
     double x, y, pi, distance;
+    clock_t t;
 
     cout << "Number of test cases: ";
     cin >> n;
 
     // starts clock to measure execution time
-    std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
+    t = clock();
 
     for (unsigned long int i = 0; i < n; i++)
     {
@@ -37,11 +38,12 @@ int main()
     pi = 4 * pointsInCircle / totalPoints;
 
     // ends clock to store elapsed time
-    std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
+    t = clock() - t;
+    double timeTaken = ((double)t)/CLOCKS_PER_SEC;
 
     cout << "Pi estimation: " << pi << '\n';
 
-    cout << "Time taken (sec) = " <<  (std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count()) /1000000.0  << '\n';
+    cout << "Time taken (sec) = " << timeTaken << '\n';
 
     return 0;
 }
