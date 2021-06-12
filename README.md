@@ -1,7 +1,7 @@
 # π Estimator
 [Original Inspiration](https://youtu.be/pvimAM_SLic)
 
-This program uses a random uniform distribution of doubles between 0 and 1 to estimate pi based on how many points are located in a radius of 1 compared to a square of 1 by 1.
+This program uses a random uniform distribution of doubles between 0 and 1 to estimate pi based on how many points are located in a radius of 1 compared to a square of 1 by 1. Written to compare the speed of execution across all kinds of different languages.
 
 *Test run on iMac 2017, Intel i7-7700K on macOS 11.4:*
 ``` console 
@@ -11,6 +11,7 @@ Pi estimation: 3.141878
 Time taken: 0.515146 seconds
 ````
 
+Let's see how many we can implement!
 - [x] C
 - [x] C++
 - [x] Swift
@@ -20,6 +21,7 @@ Time taken: 0.515146 seconds
 - [ ] Java
 - [ ] More!
 - [ ] Would love to see this program run on the GPU for a massive speed increase!
+- [ ] Maybe implement a script to run all languages?
 
 ## Contributing
 #### Feel free to implement this in a new language! However, follow these guidelines:
