@@ -1,7 +1,7 @@
 # Pi Estimator
 This program uses a random uniform distribution of doubles between 0 and 1 to estimate pi based on how many points are located in a radius of 1 compared to a square of 1 by 1.
 
-*Test run on iMac 2017 i7-7700K on macOS 11.4:*
+*Test run on iMac 2017, Intel i7-7700K on macOS 11.4:*
 ``` console 
 % ./piC 
 Number of test cases: 10000000
