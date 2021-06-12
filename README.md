@@ -1,4 +1,6 @@
 # π Estimator
+[Original Inspiration](https://youtu.be/pvimAM_SLic)
+
 This program uses a random uniform distribution of doubles between 0 and 1 to estimate pi based on how many points are located in a radius of 1 compared to a square of 1 by 1.
 
 *Test run on iMac 2017, Intel i7-7700K on macOS 11.4:*
