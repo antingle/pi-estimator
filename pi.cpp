@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 #include <cstdlib>
 #include <time.h>
 
@@ -28,7 +27,7 @@ int main()
     {
         x = (float) rand()/RAND_MAX;
         y = (float) rand()/RAND_MAX;
-        distance = pow(x, 2) + pow(y, 2);
+        distance = x * x + y * y;
 
         if (distance <= 1)
             pointsInCircle += 1;

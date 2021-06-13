@@ -12,14 +12,13 @@ print("Number of test cases: ", terminator: "")
 var nString = readLine()
 let n = Int(nString!) ?? 0
 
-
 // starts clock to measure execution time
 let startTime = CFAbsoluteTimeGetCurrent()
 
 for _ in 0..<n {
     x = Double.random(in: 0..<1)
     y = Double.random(in: 0..<1)
-    distance = pow(x, 2) + pow(y, 2);
+    distance = x * x + y * y
     
     if distance <= 1 {
         pointsInCircle += 1;
