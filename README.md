@@ -21,7 +21,6 @@ Let's see how many we can implement!
 - [ ] Java
 - [ ] More!
 - [ ] Would love to see this program run on the GPU for a massive speed increase!
-- [ ] Maybe implement a script to run all languages?
 
 ## Contributing
 #### Feel free to implement this in a new language! However, follow these guidelines:
@@ -33,6 +32,15 @@ Let's see how many we can implement!
 
 # Executing in a UNIX environment
 When running the program, it will ask for a number of test cases. The more you enter the more accurate the pi estimation will be, and the longer it will take to execute.
+
+## To run all languages at the same time
+```console
+./runall.sh
+```
+If you want to specify your own number of test cases, simply put the number as a parameter to the script:
+```console
+./runall.sh 1000000
+```
 
 ## In C
 ```console
