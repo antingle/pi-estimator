@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Number of test cases: "
-read cases
+cases=${1:-100000}
+echo "Number of test cases: $cases"
 echo "Running all programs..."
 echo
 
