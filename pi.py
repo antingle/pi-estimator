@@ -5,8 +5,8 @@ import time
 # coordinates. If the distance between the two point is less than 1 then it is
 # inside the circle. We then divide the points in the circle by the total
 # points and get an estimation of pi 
-
-n = input("Number of test cases: ")
+    
+n = input()
 
 # starts clock to measure execution time
 start = time.time()

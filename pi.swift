@@ -8,7 +8,8 @@ var pointsInCircle = 0.0
 var totalPoints = 0.0
 var x, y, pi, distance: Double
 
-print("Number of test cases: ", terminator: "")
+// print statement removed for script
+// print("Number of test cases: ", terminator: "")
 var nString = readLine()
 let n = Int(nString!) ?? 0
 

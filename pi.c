@@ -15,7 +15,8 @@ int main()
     double x, y, pi, distance;
     clock_t t;
 
-    printf("Number of test cases: ");
+    // print statement removed for script
+    // printf("Number of test cases: ");
     scanf("%lu", &n);
 
     // starts clock to measure execution time

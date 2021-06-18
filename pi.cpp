@@ -17,7 +17,8 @@ int main()
     double x, y, pi, distance;
     clock_t t;
 
-    cout << "Number of test cases: ";
+    // print statement removed for script
+    // cout << "Number of test cases: ";
     cin >> n;
 
     // starts clock to measure execution time
