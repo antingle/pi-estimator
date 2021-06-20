@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cases=${1:-100000}
+cases=${1:-1000000}
 echo "Number of test cases: $cases"
 echo "Running all programs..."
 echo
@@ -18,7 +18,7 @@ rm a.out
 echo
 
 echo "--- Swift ---"
-swift pi.swift <<< $cases 
+swift -O pi.swift <<< $cases
 echo
 
 echo "--- Python ---"
