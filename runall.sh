@@ -24,3 +24,7 @@ echo
 echo "--- Python ---"
 python pi.py <<< $cases 
 echo
+
+echo "--- Javascript ---"
+node pi.js <<< $cases
+echo

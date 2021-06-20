@@ -16,7 +16,8 @@ Let's see how many we can implement!
 - [x] C++
 - [x] Swift
 - [x] Python
-- [ ] JavaScript/TypeScript
+- [x] JavaScript
+- [ ] TypeScript
 - [ ] C#
 - [ ] Java
 - [ ] More!
@@ -72,4 +73,14 @@ python --version
 Then run with
 ```console
 python pi.py
+```
+
+## In Javascript
+First check that you have Javascript installed with
+```console
+node -v
+```
+Then run with
+```console
+node pi.js
 ```
