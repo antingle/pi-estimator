@@ -6,13 +6,13 @@ echo "Running all programs..."
 echo
 
 echo "--- C ---"
-gcc pi.c
+gcc -O pi.c
 ./a.out <<< $cases 
 rm a.out
 echo
 
 echo "--- C++ ---"
-g++ pi.cpp
+g++ -O pi.cpp
 ./a.out <<< $cases 
 rm a.out
 echo
